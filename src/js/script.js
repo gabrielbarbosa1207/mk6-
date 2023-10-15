@@ -1,4 +1,4 @@
-var tmin = 20;
+var tmin = 15;
 var tseg = 0;
   
 var tpitch = (tmin * 60000) + (tseg * 1000);
