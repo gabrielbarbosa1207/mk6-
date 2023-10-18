@@ -32,10 +32,21 @@ footer{
 
 .btn{
     padding: 15px 35px;
-    background-color: #9DFF20;
+    background-color: #008000;
     text-decoration: none;
     color: white;
     border-radius: 6px;
     font-weight: 700;
+    animation: pulse 1s infinite;
 
 }
+
+.ocultar{
+    display: none;
+}
+
+@keyframes pulse {
+    0% {    transform: scaleX(1)  }
+    50% {    transform: scale3d(1.05, 1.05, 1.05)  }
+    to {    transform: scaleX(1)  }
+  }
